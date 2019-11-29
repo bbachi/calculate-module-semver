@@ -1,5 +1,5 @@
-var Calclate = function(a, b) {
+var Calculate = function(a, b) {
     return a + b;
 }
 
-module.exports = Calclate;
+module.exports = Calculate;
