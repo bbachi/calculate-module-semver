@@ -1,0 +1,11 @@
+{
+  "name": "calculate-module-semver",
+  "version": "1.0.0",
+  "description": "This NPM module is an example project to demonstrate the SemVer versioning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhargav Bachina",
+  "license": "ISC"
+}
