@@ -1,14 +1,18 @@
-var Calculate = function(a, b, functionName) {
-    if (functionName === 'add') {
+class Calculate {
+
+    constructor() { }
+
+    static add(a, b) {
         return a + b;
-    } 
-    if (functionName === 'subtract') {
+    }
+
+    static subtract(a, b) {
         return a - b;
-    } 
-    if (functionName === 'multiply') {
+    }
+
+    static multiply(a, b) {
         return a * b;
-    } 
-    return a + b;
+    }
 }
 
 module.exports = Calculate;
